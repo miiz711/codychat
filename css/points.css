@@ -1,0 +1,23 @@
+.points-box {
+    position: fixed;
+    right: 10px;
+    top: 60px;
+    background: rgba(0,0,0,0.7);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.scrolling-ad {
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+    animation: scroll-left 20s linear infinite;
+}
+
+@keyframes scroll-left {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
